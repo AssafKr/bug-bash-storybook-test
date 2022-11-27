@@ -1,9 +1,6 @@
 import React from "react";
-import * as livecycle from "@livecycle/sdk";
 import { Header } from "./Header";
 import "./page.css";
-
-console.log("in pages", livecycle.init());
 
 export const Page = () => {
   const [user, setUser] = React.useState();
